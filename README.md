@@ -3,6 +3,15 @@
 ### Why am I publishing this?
 Because I couldn't find anything simple to set up Cloudflare as a kind of DDNS without overkill, and I want others to have a good and simple-to-use resource for doing just that.
 
+> [!NOTE]
+> I am not planning to actively maintain this for a while thanks to exam stress. I might start doing so in a few weeks, but for now, everything is working as intended.
+> (This does **not** mean I won't try to fix reported bugs, but I likely won't add new features for now.)
+>
+> Also, this is more of a "Works on my machine" thing, I can't guarantee it will work on yours too.
+>
+>
+> That being said, I hope it will work for you with less trouble than with other software!
+
 ## Installation
 
 1. Download the JAR from the Releases Tab
@@ -51,5 +60,5 @@ curl "https://api.cloudflare.com/clients/v4/zones/<ZONE_ID>/dns_records" -H "Aut
   ]
 }
 ```
-  
+
 </details>
