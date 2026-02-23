@@ -25,7 +25,7 @@ Once finished, you can also set the above command to run periodically using `cro
 ## Dependencies
 | Tool | Why does it need to be installed? | How to check for installation |
 | --- | --- | --- |
-| `curl` | Curl needs to be installed in order to check the public IP address for both IPv4 and IPv6 <small>because Java is not able to let the developer decide which one to use when</small>. | `curl -v` |
+| `curl` | Curl needs to be installed in order to check the public IP address for both IPv4 and IPv6 <small>because Java is not able to let the developer decide which one to use when</small>. | `curl --version` |
 | `java` | Java needs to be installed in order to run this tool. | `java --version` |
 
 ## Configuration
